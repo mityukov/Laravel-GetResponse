@@ -1,6 +1,6 @@
 {
-  "name": "slavka/laravel-getresponse",
-  "description": "A Laravel 7 wrapper for the GetResponse API",
+  "name": "mityukov/laravel-getresponse",
+  "description": "A Laravel 7 and 8 wrapper for the GetResponse API",
   "keywords": ["laravel", "laravel7", "getresponse"],
   "license": "MIT",
   "authors": [
