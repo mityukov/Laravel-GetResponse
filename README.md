@@ -5,10 +5,19 @@ A Laravel 7 wrapper for the GetResponse API
 
 ## Installation
 
-To get the latest version of Laravel-GetResponse simply require it in your `composer.json` file.
+To get the latest version of Laravel-GetResponse require it in your `composer.json` file and mention in the "repositories" section:
 
 ~~~
-"slavka/laravel-getresponse": "dev-master"
+"require": {
+    "mityukov/laravel-getresponse": "dev-master"
+},
+
+"repositories":[
+    {
+        "type": "vcs",
+        "url": "git@github.com:mityukov/Laravel-GetResponse.git"
+    }
+],
 ~~~
 
 You'll then need to run `composer install` to download it and have the autoloader updated.
